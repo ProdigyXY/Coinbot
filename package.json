@@ -1,0 +1,29 @@
+{
+  "name": "coinbot",
+  "version": "1.0.0",
+  "description": "This is a simple bitcoin mining bot for freebitco.in faucet",
+  "main": "start.js",
+  "scripts": {
+    "start": "coinbot start",
+    "stop": "coinbot stop"
+  },
+  "keywords": [
+    "bot",
+    "javascript",
+    "coinbot",
+    "freebico.in"
+  ],
+  "author": "Steve Jnr",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "puppeteer": "^14.2.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  },
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  }
+}

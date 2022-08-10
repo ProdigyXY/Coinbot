@@ -1,0 +1,23 @@
+{
+    "apiKey": "<YOUR_2CAPTCHA_API_KEY_HERE>",
+
+    "user": {
+        "address": "<YOUR_ADDRESS_HERE>",
+        "password": "<YOUR_PASSWORD_HERE>"
+    },
+
+    "settings": {
+        "headless": true,
+
+        "timeZone": "Africa/Lagos",
+
+        "captcha": {
+            "enabled": true
+        },
+
+        "rolling": {
+            "enabled": true
+        }
+    }
+    
+}
